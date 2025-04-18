@@ -283,6 +283,7 @@ def main() -> None:
     application.add_handler(MessageHandler(filters.Regex('^📜 Show All Words 📚$'), show_words))
 
     application.run_polling()
-
+def salom():
+    return 'salom'
 if __name__ == "__main__":
     main()
